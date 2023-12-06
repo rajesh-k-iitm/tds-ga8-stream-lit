@@ -25,7 +25,8 @@ def run():
         page_icon="👋",
     )
 
-    st.write("# TDS GA8 - Welcome to Streamlit RK's page! 👋")
+    st.write("# Tools for Data Science GA8")
+    st.write("Welcome to RK's page on stream lit! 👋")
 
     st.sidebar.success("Success!! Select a demo above.")
 
