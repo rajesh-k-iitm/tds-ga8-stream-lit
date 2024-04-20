@@ -48,9 +48,10 @@ def run():
 
     result = 0.0
     result = greatestOf3(a, b,c)
-    resultString = 'Greatest:'+str(result)
+    resultString = 'Greatest of 3: '+str(result)
     st.title(resultString)
     st.write('Greatest of ', a, ', ', b, ', ', c,' is :',result)
+    st.sidebar.success(resultString)
 
     st.markdown(
         """
