@@ -18,6 +18,31 @@ from streamlit.logger import get_logger
 
 LOGGER = get_logger(__name__)
 
+def greatestOf3(a, b,c):
+    greatest = a
+    if ((b>a) and (b>c) ):
+        greatest = b
+    else:
+        if(c>a):
+            greatest =c
+    return greatest
+
+a = int(input('Enter 1st number: '))
+b = int(input('Enter 2nd number: '))
+c = int(input('Enter 3rd number: '))
+
+print(f'Greatest of {a} {b} and {c} is {greatestOf3(a, b,c)}')
+def greatestOf3(a, b,c):
+    greatest = a
+    if ((b>a) and (b>c) ):
+        greatest = b
+    else:
+        if(c>a):
+            greatest =c
+    return greatest
+
+
+
 
 def run():
     st.set_page_config(
@@ -29,6 +54,12 @@ def run():
     st.write("Welcome to RK's page on stream lit! 👋")
 
     st.sidebar.success("Success!! Select a demo above.")
+
+    a = int(input('Enter 1st number: '))
+    b = int(input('Enter 2nd number: '))
+    c = int(input('Enter 3rd number: '))
+
+    print(f'Greatest of {a} {b} and {c} is {greatestOf3(a, b,c)}')
 
     st.markdown(
         """
