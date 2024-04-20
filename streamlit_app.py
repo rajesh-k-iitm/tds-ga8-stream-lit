@@ -1,4 +1,4 @@
-# Edited by Rajesh K, IITM, TDS GA8 
+# Edited by Rajesh K, IITM, TDS GA8  Version 6
 # Copyright 2018-2022 Streamlit Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -46,13 +46,13 @@ def run():
     b = st.number_input('Enter 2nd number ')
     c = st.number_input('Enter 3rd number ')
 
-    
+    st.title('RESULT')
     st.write('Greatest of ', a, ', ', b, ', ', c,' is :',greatestOf3(a, b,c))
 
     st.markdown(
         """
         IIT Madras Tools for Data Science Graded Assignment 8
-        6th December 2023
+        20 April 2024 
         Streamlit is an open-source app framework built specifically for
         Machine Learning and Data Science projects.
         **👈 Select a demo from the sidebar** to see some examples
