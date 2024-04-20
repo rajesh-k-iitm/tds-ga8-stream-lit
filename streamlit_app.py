@@ -27,19 +27,6 @@ def greatestOf3(a, b,c):
             greatest =c
     return greatest
 
-a = int(input('Enter 1st number: '))
-b = int(input('Enter 2nd number: '))
-c = int(input('Enter 3rd number: '))
-
-print(f'Greatest of {a} {b} and {c} is {greatestOf3(a, b,c)}')
-def greatestOf3(a, b,c):
-    greatest = a
-    if ((b>a) and (b>c) ):
-        greatest = b
-    else:
-        if(c>a):
-            greatest =c
-    return greatest
 
 
 
