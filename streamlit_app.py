@@ -42,11 +42,13 @@ def run():
 
     st.sidebar.success("Success!! Select a demo above.")
 
-    a = int(input('Enter 1st number: '))
-    b = int(input('Enter 2nd number: '))
-    c = int(input('Enter 3rd number: '))
+    a = st.number_input('Enter 1st number ')
+    b = st.number_input('Enter 2nd number ')
+    c = st.number_input('Enter 3rd number ')
+    st.write('The current number is ', number)
 
-    print(f'Greatest of {a} {b} and {c} is {greatestOf3(a, b,c)}')
+    
+    st.write('Greatest of ', a, ', ', b, ', ', c,' is :',greatestOf3(a, b,c))
 
     st.markdown(
         """
