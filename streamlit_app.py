@@ -47,7 +47,7 @@ def run():
     c = st.number_input('Enter 3rd number ')
 
     
-    st.write('#Greatest of ', a, ', ', b, ', ', c,' is :',greatestOf3(a, b,c))
+    st.title('Greatest of ', a, ', ', b, ', ', c,' is :',greatestOf3(a, b,c))
 
     st.markdown(
         """
