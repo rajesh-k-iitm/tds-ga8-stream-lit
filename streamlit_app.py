@@ -37,7 +37,7 @@ def run():
         page_icon="👋",
     )
 
-    st.write("# Tools for Data Science GA8 - Ver 4")
+    st.write("# Tools for Data Science GA8 - LARGEST OF 3 - Ver 5")
     st.write("Welcome to RK's page on stream lit! 👋")
 
     st.sidebar.success("Success!! Select a demo above.")
