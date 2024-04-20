@@ -37,7 +37,7 @@ def run():
         page_icon="👋",
     )
 
-    st.write("# Tools for Data Science GA8 - Ver 3")
+    st.write("# Tools for Data Science GA8 - Ver 4")
     st.write("Welcome to RK's page on stream lit! 👋")
 
     st.sidebar.success("Success!! Select a demo above.")
@@ -45,7 +45,6 @@ def run():
     a = st.number_input('Enter 1st number ')
     b = st.number_input('Enter 2nd number ')
     c = st.number_input('Enter 3rd number ')
-    st.write('The current number is ', number)
 
     
     st.write('Greatest of ', a, ', ', b, ', ', c,' is :',greatestOf3(a, b,c))
